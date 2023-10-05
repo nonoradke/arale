@@ -4,7 +4,7 @@ from bardapi import Bard
 import os
 import keep_alive
 # Set the Bard API key
-os.environ["_BARD_API_KEY"] = "YOUR_BARD_API"
+os.environ["_BARD_API_KEY"] = "bQh5szhlWWKi0GCeAd97l9RySmqj2QtzOGltsAlsBSlvYIfYt_-sCwT3NxI5otLrC0CWow."
 
 # Dictionary to store the last messages
 last_messages = {}
@@ -74,7 +74,7 @@ def error(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="An error occurred. Please try again later.")
 
 # Set up the Telegram bot
-updater = Updater(token="YOUR_TELEGRAM_TOKEN", use_context=True)
+updater = Updater(token="6068074926:AAH_gKksPvtIhcVkCEWEZoI0_6o0TeefuXk", use_context=True)
 dispatcher = updater.dispatcher
 
 # Add handlers for /start command, /clear command, and text messages
